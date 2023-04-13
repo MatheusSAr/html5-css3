@@ -1,0 +1,17 @@
+* {
+    background-color: blueviolet;
+    margin: none;
+    padding: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+img {
+    padding: none;
+    border: black;
+}
+body a img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Roboto Mono', monospace, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+h2 {
+    font-family: 'Roboto Mono', serif;
+    font-weight: bold;
+}
+p {
+    font-family: 'Roboto Mono', arial, sans-serif;
+    font-weight: 300;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+ul {
+    list-style-type: none;
+}
+div > ul {
+    display: none;
+}
+div:hover > ul {
+    display:block;
+}
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+li:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+a:visited {
+    color: red;
+}
+.principal::after {
+    content: '←';
+    font-weight:lighter;
+}
+.principal::before {
+    content: '→';
+    font-weight:lighter;
+}
+.principal:hover {
+    background-color: red;
+    color: white;
+}

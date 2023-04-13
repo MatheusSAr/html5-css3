@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Medias</title>
+</head>
+<body>
+    <h1>Dinamic image</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto flexível">
+    </picture>
+    <h1>Playing Audios</h1>
+    <p>First metod</p>
+    <audio src="media/Here it Comes - TrackTribe.mp3" controls></audio>
+    <!-- MP3 WAV OGG  -->
+    <P>Others metods</P>
+    <audio preload="metadata" controls loop>
+        <source src="media/Here it Comes - TrackTribe.mp3" type="audio/mpeg">
+        <source src="media/Here it Comes - TrackTribe.ogg" type="audio/ogg">
+        <source src="media/Here it Comes - TrackTribe.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
